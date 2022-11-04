@@ -1,0 +1,131 @@
+:root{
+    --gray-100: #d0d0d0;
+    --gray-200: #c0c0c0;
+    --gray-300: #b8b8b8;
+    --gray-400: #a9a9a9;
+    --gray-500: #707070;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 0.875rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+svg{
+    width: 1.5625rem;
+    height: 1.5625rem;
+}
+.section{
+    height:100vh;
+    width:100vw;
+}
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-top: 0.9375rem;
+}
+.nav_list{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:flex;
+    gap: 1.25rem;
+    align-items:center;
+}
+.nav_item--app svg{
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor:pointer;
+}
+.nav_item--profile img{
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius:50%;
+    margin-right: 1.5625rem;
+    cursor:pointer;
+}
+.nav_item--profile img:hover{
+    border: 0.125rem solid rgba(0, 0, 0, 0.4);
+}
+.main_logo, .main_input, .main_button{
+    display:flex;
+    justify-content:center;
+}
+.main_logo img{
+     width: 31.25rem;
+     height: 18.75rem;
+}
+.form_group{
+    position: relative;
+}
+.form_search input{
+    width: 90vw;
+    padding: 1rem;
+    border-radius: 25px;
+    outline: none;
+    border:1px solid gray;
+    padding-left: 3.125rem;
+}
+.form_logo--search{
+    position: absolute;
+    left: 1.25rem;
+    top: 0.9375rem;
+}
+.form_logo--mic{
+    position: absolute;
+    right: 1.875rem;
+    bottom: 0.5rem;
+}
+.main_button button{
+    padding: 1rem;
+    margin: 3.125rem;
+}
+.main_button button:hover{
+    border: 0.125rem solid gray;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    margin-top: 1.25rem;
+}
+.footer_top{
+    background-color:#707070;
+    padding: 0.9375rem;
+    border-bottom: 0.0625rem solid black;
+    color: white;
+    font-weight: bold;
+}
+.footer_bottom{
+    background-color: #707070;
+    position: absolute;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_navigation li{
+    list-style: none;
+    margin: 0.9375rem;
+    float: left;
+}
+.footer_nav li{
+    list-style: none;
+} 
+.footer_navigation li a{
+    color: white;
+}
+.footer_nav li a{
+    color: white;
+}
